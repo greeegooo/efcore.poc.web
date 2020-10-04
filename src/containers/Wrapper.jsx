@@ -1,6 +1,6 @@
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import Menu from "../components/Menu";
+import Menu from "../components/Menu/Menu";
 
 class Wrapper extends React.Component {
 

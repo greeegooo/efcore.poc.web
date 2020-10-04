@@ -1,10 +1,11 @@
 import React from 'react';
 import {Container, Nav, Navbar} from "react-bootstrap";
 import {Link} from 'react-router-dom';
+import './Menu.css';
 
 const Menu = () => {
     return (
-        <Navbar>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
                 <Navbar.Brand>School</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>

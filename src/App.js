@@ -7,6 +7,7 @@ import {
   Route,
 } from "react-router-dom";
 import Home from "./containers/Home";
+import Students from "./containers/Students";
 
 class App extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class App extends React.Component {
       <Wrapper>
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/students" component={Students} />
         </Switch>
       </Wrapper>
     </Router>
