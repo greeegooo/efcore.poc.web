@@ -1,17 +1,14 @@
 import React from "react";
-import {Component} from "react";
 import {Col, Container, Row} from "react-bootstrap";
+import Menu from "../components/Menu";
 
-class Wrapper extends Component {
-    constructor(props) {
-        super(props);
-    }
+class Wrapper extends React.Component {
 
     render() {
         const {children} = this.props;
 
         return (
-            <Fragment>
+            <div>
                 <Menu />
                 <Container>
                     <Row>
@@ -20,7 +17,7 @@ class Wrapper extends Component {
                         </Col>
                     </Row>
                 </Container>
-            </Fragment>
+            </div>
         );
     }
 }
